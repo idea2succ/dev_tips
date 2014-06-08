@@ -1,8 +1,9 @@
 
 ## 主要参考链接
 ### web 框架 (controller)
-* http://www.padrinorb.com/guides/getting-started
-* http://www.padrinorb.com/api/index.html
+* http://www.padrinorb.com/guides/getting-started (Guide)
+* http://www.padrinorb.com/api/index.html (API)
+* https://github.com/padrino/padrino-framework (Source code)
 
 ### ORM (model)
 * http://guides.rubyonrails.org/active_record_basics.html
@@ -13,8 +14,25 @@
 * http://guides.rubyonrails.org/active_record_querying.html
 
 ## Views (view)
+* http://haml.info/ (HAML)
+* http://www.bootcss.com/ (bootstrap 中文）
+* http://getbootstrap.com/2.3.2/ （bootstrap 官网）
 
+## 第三方
+* http://jquery.com/ (jquery 框架）
+* http://baike.baidu.com/view/951383.htm (html5 百科）
+* http://baike.baidu.com/view/1713027.htm (CSS3 百科）
+* http://www.xue5.com/WebDev/Html5/755463.html （html5 教程）
 
+## 图片和图像
+* https://github.com/minimagick/minimagick (图像缩放）
+
+## Excel 解析
+* https://github.com/Empact/roo (roo)
+
+## 文件上传
+* https://github.com/carrierwaveuploader/carrierwave 
+* 
 
 ## 创建空项目
 
