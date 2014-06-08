@@ -26,13 +26,6 @@
 * https://github.com/twbs/bootstrap-sass (sass)
 
 
-## 第三方
-* http://jquery.com/ (jquery 框架）
-* http://baike.baidu.com/view/951383.htm (html5 百科）
-* http://baike.baidu.com/view/1713027.htm (CSS3 百科）
-* http://www.xue5.com/WebDev/Html5/755463.html （html5 教程）
-* http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html （http 响应码)* 
-
 ## 图片和图像
 * https://github.com/minimagick/minimagick (图像缩放）
 
@@ -41,8 +34,15 @@
 
 ## 文件上传
 * https://github.com/carrierwaveuploader/carrierwave 
-* 
 
-## 创建空项目
+## 第三方
+* http://jquery.com/ (jquery 框架）
+* http://baike.baidu.com/view/951383.htm (html5 百科）
+* http://baike.baidu.com/view/1713027.htm (CSS3 百科）
+* http://www.xue5.com/WebDev/Html5/755463.html （html5 教程）
+* http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html （http 响应码)
+* http://wenku.baidu.com/view/5cd67a2bed630b1c59eeb541.html?re=view （技术写作 MarkDown 语法）
+
+# 创建空项目
 
 
