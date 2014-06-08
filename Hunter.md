@@ -43,6 +43,32 @@
 * http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html （http 响应码)
 * http://wenku.baidu.com/view/5cd67a2bed630b1c59eeb541.html?re=view （技术写作 MarkDown 语法）
 
-# 创建空项目
+## 过程记录
+### 创建空项目
 * padrino g project -h
 * padrino g project qiankun -d activerecord -t riot -s jquery -e haml -m mocha  -c sass -a postgres
+
+### 链接数据库
+
+configs/database.rb
+
+ActiveRecord::Base.configurations[:development] = {
+  :adapter   => 'postgresql',
+  :database  => 'qiankun_development',
+  :username  => 'crmp',
+  :password  => '123456',
+  :host      => 'localhost',
+  :port      => 5432
+
+}
+
+### 初始化数据库
+* cd qiankun 进入项目目录
+* rake --tasks 查看所有的任务
+* rake ar:create:all 创建所有的数据库
+* open pgadmin III,查看数据库是否已经创建
+
+### 建立用户模型
+*
+
+
