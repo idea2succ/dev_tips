@@ -52,15 +52,15 @@
 
 configs/database.rb
 
-ActiveRecord::Base.configurations[:development] = {
-  :adapter   => 'postgresql',
-  :database  => 'qiankun_development',
-  :username  => 'crmp',
-  :password  => '123456',
-  :host      => 'localhost',
-  :port      => 5432
+    ActiveRecord::Base.configurations[:development] = {
+      :adapter   => 'postgresql',
+      :database  => 'qiankun_development',
+      :username  => 'crmp',
+      :password  => '123456',
+      :host      => 'localhost',
+      :port      => 5432
 
-}
+    }
 
 ### 初始化数据库
 * cd qiankun 进入项目目录
