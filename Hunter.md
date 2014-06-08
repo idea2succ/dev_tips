@@ -68,7 +68,43 @@ configs/database.rb
 * rake ar:create:all 创建所有的数据库
 * open pgadmin III,查看数据库是否已经创建
 
+### 启动padrino
+* cd qiankun
+* padrino start --help
+* edit Gem file  add gem 'pg'
+* edit Gemfile, uncomments gem "thin" (使用thin作为app 服务器）
+* bundle install
+* padrino start -a thin
+* visit http://localhost:3000/ (you will got  Sinatra doesn’t know this ditty.>)
+
+### 产生管理员后台
+* padrino g admin (仔细观察输出，可以看到 db/下面有输出）
+* rake ar:migrate (建立了account表格）
+
+### 建立初始化account账号，用于admin
+* rake --tasks
+* rake db:seeds (运行 db seed.rb, 创建管理员初始账号和密码）
+
+### 查看当前路由以及登录
+* rake routes
+* 重启 padrino start -a thin
+* http://localhost:3000/admin/
+* http://localhost:3000/admin/sessions/new 
+* 用初始化用户名和密码登录
+* 修改models/account.rb
+      # account = first(:conditions => ["lower(email) = lower(?)", email]) if email.present?
+      account = self.where(:email=>email).first if email.present?
+* http://localhost:3000/admin/
+
+###仔细分析和理解account 模型的MVC
+* cd qianku/admin
+* 阅读account的MVC的代码
+
+### 创建用户模块 app
+* padrino g app um
+
 ### 建立用户模型
-*
+* padrino g model -h
+* padrino g model 
 
 
