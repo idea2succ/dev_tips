@@ -44,5 +44,5 @@
 * http://wenku.baidu.com/view/5cd67a2bed630b1c59eeb541.html?re=view （技术写作 MarkDown 语法）
 
 # 创建空项目
-
-
+* padrino g project -h
+* padrino g project qiankun -d activerecord -t riot -s jquery -e haml -m mocha  -c sass -a postgres
