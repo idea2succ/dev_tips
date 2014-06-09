@@ -14,17 +14,19 @@
 * http://guides.rubyonrails.org/active_record_querying.html
 
 ## Views (view)
-### Haml
+### Haml (view 模板语言）
 * http://haml.info/ (HAML official)
 * http://haml.info/docs/yardoc/file.REFERENCE.html (haml reference)
 
-### bootstrap
+### bootstrap (twitter 公司的开源)
 * http://www.bootcss.com/ (bootstrap 中文）
 * http://getbootstrap.com/2.3.2/ （bootstrap 官网)
 
 ### sass
-* https://github.com/twbs/bootstrap-sass (sass)
+* https://github.com/twbs/bootstrap-sass (sass，bootstrap是less)
 
+### layout 设计工具
+* http://www.bootcss.com/p/layoutit/# （尝试下新工具，看上去不错，利用bootstrap做出来的）
 
 ## 图片和图像
 * https://github.com/minimagick/minimagick (图像缩放）
