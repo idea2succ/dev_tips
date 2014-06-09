@@ -2,8 +2,13 @@
 ## 主要参考链接
 ### web 框架Padrino (controller)
 * http://www.padrinorb.com/guides/getting-started (Guide)
-* http://www.padrinorb.com/api/index.html (API)
+* http://www.padrinorb.com/api/index.html (API )
 * https://github.com/padrino/padrino-framework (Source code)
+
+#### 常用padrino 链接
+* http://www.padrinorb.com/guides/generators （generator)
+* http://www.padrinorb.com/guides/controllers (controllers)
+* http://www.padrinorb.com/guides/application-helpers (view helper)
 
 ### ORM-ActiveRecord (model)
 * http://guides.rubyonrails.org/active_record_basics.html
@@ -52,6 +57,11 @@
 ## 其他
 * http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html （http 响应码)
 * http://wenku.baidu.com/view/5cd67a2bed630b1c59eeb541.html?re=view （技术写作 MarkDown 语法
+
+
+##手机开发潜在资源
+* http://www.bootcss.com/p/responsive-nav.js/ （响应式导航）
+
 
 ## 过程记录
 ### 创建空项目
@@ -115,7 +125,7 @@ configs/database.rb
 * padrino g app um
 
 ### 建立用户模型
-* padrino g model -h
-* padrino g model 
+* padrino g model --help
+* padrino g model User name:string email:string mphone:string qq:string crypedpwd:string salt:string  role:string    veribit:string vericode:string avatar:string
 
 
