@@ -92,7 +92,8 @@ configs/database.rb
 * http://localhost:3000/admin/sessions/new 
 * 用初始化用户名和密码登录
 * 修改models/account.rb
-      # account = first(:conditions => ["lower(email) = lower(?)", email]) if email.present?
+      account = first(:conditions => ["lower(email) = lower(?)", email]) if email.present?
+      成为
       account = self.where(:email=>email).first if email.present?
 * http://localhost:3000/admin/
 
