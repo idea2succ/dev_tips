@@ -1,11 +1,11 @@
 
 ## 主要参考链接
-### web 框架 (controller)
+### web 框架Padrino (controller)
 * http://www.padrinorb.com/guides/getting-started (Guide)
 * http://www.padrinorb.com/api/index.html (API)
 * https://github.com/padrino/padrino-framework (Source code)
 
-### ORM (model)
+### ORM-ActiveRecord (model)
 * http://guides.rubyonrails.org/active_record_basics.html
 * http://guides.rubyonrails.org/migrations.html
 * http://guides.rubyonrails.org/active_record_validations.html
