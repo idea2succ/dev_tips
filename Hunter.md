@@ -126,6 +126,13 @@ configs/database.rb
 
 ### 建立用户模型
 * padrino g model --help
-* padrino g model User name:string email:string mphone:string qq:string crypedpwd:string salt:string  role:string    veribit:string vericode:string avatar:string
+* padrino g model User name:string email:string mphone:string qq:string crypedpwd:string salt:string  role:string    veribit:string vericode:string avatar:string -a um
+* rake ar:migrate (将表写入数据库）
+* padrino g admin_page user
+*  http://localhost:3000/admin (观察user已经在管理后台上了，所有的CRUD自动创建完成了）
+*  admin/view/layouts/application.html.haml,注释掉Google api link，因为访问非常慢
+  /%link{:href => 'http://fonts.googleapis.com/css?family=Varela', :rel => :stylesheet}
+
+### 
 
 
