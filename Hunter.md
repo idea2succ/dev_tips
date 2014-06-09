@@ -133,6 +133,9 @@ configs/database.rb
 *  admin/view/layouts/application.html.haml,注释掉Google api link，因为访问非常慢
   /%link{:href => 'http://fonts.googleapis.com/css?family=Varela', :rel => :stylesheet}
 
-### 
+### 创建base, sessions,users 三个controller
+* copy admin 下面的base的controller和view 代码
+* copy sessions 下面的controller和view代码
+* copy admin users 下面的controller和view 代码
 
 
