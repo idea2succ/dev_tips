@@ -1,4 +1,3 @@
-
 ## 主要参考链接
 ### web 框架Padrino (controller)
 * http://www.padrinorb.com/guides/getting-started (Guide)
@@ -137,5 +136,13 @@ configs/database.rb
 * copy admin 下面的base的controller和view 代码
 * copy sessions 下面的controller和view代码
 * copy admin users 下面的controller和view 代码
+* controller里面 把Qiankun::Admin 改为Qiankun::Um
+* 发现移植 access_controll有命名空间问题，通过更改命名空间绕过去
+* 发现pat方法不能识别，只好在controoler里面加一行 register Padrino::Admin::Helpers::ViewHelpers
+* alias :pat :padrino_admin_translate
+
+### 其他
+* 移植登录系统
+* 移植授权系统
 
 
