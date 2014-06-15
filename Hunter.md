@@ -145,4 +145,19 @@ configs/database.rb
 * 移植登录系统
 * 移植授权系统
 
-
+### 用户头像设置
+* 上传并修改表单
+    <code>
+     = f.file_field :avatar 
+     = f.hidden_field :avatar_cache 
+    </code>
+*  Gem file 中 引入carrier wave 和 mini magic
+*  产生插件 D:\IdeaLab\qiankun>padrino g plugin  D:\IdeaLab\padrino-recipes\plugins\carrierw
+ave_plugin.rb
+* gem 'carrierwave'
+* gem 'mini_magick','3.3', require: false
+*  lib/upload.rb 中去掉注释    include CarrierWave::MiniMagick
+* 表单上传格式
+<code>
+{"name"=>"hunter", "email"=>"hunter.hu@nsn.com", "avatar"=>{:filename=>"Desert.jpg", :type=>"image/jpeg", :name=>"user[avatar]", :tempfile=>#<Tempfile:C:/Users/w22812/AppData/Local/Temp/RackMultipart20140615-60160-1xxylig>, :head=>"Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"Desert.jpg\"\r\nContent-Type: image/jpeg\r\n"}, "avatar_cache"=>""}
+</code>
