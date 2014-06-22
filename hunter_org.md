@@ -30,7 +30,7 @@
 * description
 * zuzhi_type (个人，物业，学校，社区，公司)
 * has many user
-* has_many small_group
+* has_many small_group 
 * has many activity
 * has one global node
 
@@ -39,6 +39,11 @@
 
 ### 组织模型 org_smallgroup
 * id org_id small_group_id
+
+### 用户对组织的取舍
+* 可以退出该组织
+* 可以退出该用户创建的任何组织
+* 可以屏蔽某组织的消息
 
 
 
