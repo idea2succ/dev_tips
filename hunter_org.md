@@ -47,6 +47,16 @@
 
 
 
+### 开始原型开发
+
+* 建立一个org模块 padrino g app org
+*  padrino g controller base -a org ,建立一个 基础的控制器，用于调试或者集成
+*  padrino g model organize name:string description:string owner:integer zuzi_type:string node_id integer -a org
+*  rake db:migrate
+*  padrino g admin_page organize
+
+
+
 
 
    
