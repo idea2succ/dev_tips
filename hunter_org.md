@@ -20,3 +20,29 @@
  * 管理员拉入并且用户开通APP
  * 受众用户申请加入组织
  
+### 其他考虑
+* 一个组织有一个主页
+* 一个组织有一些菜单按钮可以手机交互
+
+### 组织模型 - org
+* name
+* owner
+* description
+* zuzhi_type (个人，物业，学校，社区，公司)
+* has many user
+* has_many small_group
+* has many activity
+* has one global node
+
+### 组织模型 - org_user
+* id user_id org_id
+
+### 组织模型 org_smallgroup
+* id org_id small_group_id
+
+
+
+
+
+   
+ 
