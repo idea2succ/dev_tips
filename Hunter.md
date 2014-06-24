@@ -3,6 +3,7 @@
 * http://www.padrinorb.com/guides/getting-started (Guide)
 * http://www.padrinorb.com/api/index.html (API )
 * https://github.com/padrino/padrino-framework (Source code)
+* http://www.padrinorb.com/blog/looking-at-projects-using-padrino
 
 #### 常用padrino 链接
 * http://www.padrinorb.com/guides/generators （generator)
@@ -58,6 +59,9 @@
 * http://wenku.baidu.com/view/5cd67a2bed630b1c59eeb541.html?re=view （技术写作 MarkDown 语法
 
 
+## 导航设计
+* https://github.com/codeplant/simple-navigation/wiki
+* 
 ##手机开发潜在资源
 * http://www.bootcss.com/p/responsive-nav.js/ （响应式导航）
 
